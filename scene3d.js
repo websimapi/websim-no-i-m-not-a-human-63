@@ -7,6 +7,8 @@ const velocity = new THREE.Vector3();
 const direction = new THREE.Vector3();
 let prevTime = performance.now();
 let animationFrameId = null;
+let moveIndicator = null;
+let isMovingToTarget = false;
 
 const container = document.getElementById('scene-3d-container');
 const canvas = document.getElementById('scene-3d-canvas');
